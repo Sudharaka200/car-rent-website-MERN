@@ -9,14 +9,14 @@ function Navbar(props) {
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex-1 md:flex md:items-center md:gap-12">
-                            <a className="block text-teal-600" href="#">
+                            <a className="block" href="#">
                                 <img src={Logo} alt="" />
                             </a>
                         </div>
 
                         <div className="md:flex md:items-center md:gap-12">
                             <nav aria-label="Global" className="hidden md:block">
-                                <ul className="flex items-center gap-6 text-sm">
+                                <ul className="flex items-center text-gray-900 gap-6 text-sm">
                                         <Menulinks linkName= "Home" />
                                         <Menulinks linkName= "About" />
                                         <Menulinks linkName= "Booking" />
@@ -28,10 +28,10 @@ function Navbar(props) {
                             <div className="flex items-center gap-4">
                                 <div className="sm:flex sm:gap-4">
                                     <a
-                                        className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
+                                        className="rounded-md bg-orange-400 px-5 py-2.5 text-sm font-medium text-gray-700 shadow-sm"
                                         href={props.btn}
                                     >
-                                        Login
+                                        Login | Sign up
                                     </a>
                                 </div>
 

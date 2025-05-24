@@ -74,7 +74,7 @@ function Form() {
                         </label>
                     </div>
                     <div className="">
-                        <button type='submit'> Book Now</button>
+                        <button type='submit' className='bg-orange-400 pt-2 pb-2 pl-5 pr-5 mt-5 rounded-md'> Book Now</button>
                     </div>
                 </div>
             </form>

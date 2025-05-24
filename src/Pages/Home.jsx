@@ -18,20 +18,22 @@ function Home() {
                 <BodyContent title="About us">
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
                         <div className="">
-                            <img src={AboutImg} alt="" />
+                            <img className='pl-20' src={AboutImg} alt="" />
                         </div>
                         <div className="">
-                            <p>We are a specialized team committed to providing reliable car rental services. One of the advantages of renting a car from us is offering competitive and transparent prices. By providing services such as comprehensive insurance ......</p>
-                            <p>Read More</p>
+                            <p className=' pt-20 pr-15 text-2xl'>We are a specialized team committed to providing reliable car rental services. One of the advantages of renting a car from us is offering competitive and transparent prices. By providing services such as comprehensive insurance ......</p>
+                            <p className='text-orange-500 text-2xl mt-5'>Read More</p>
                         </div>
                     </div>
                 </BodyContent>
             </div>
 
             {/* Book Now Section */}
-            <div className='lg:p-10'>
+            <div className='lg:p-10 bg-orange-100'>
                 <BodyContent title="Book Now">
-                    <Form />
+                   <div>
+                     <Form/>
+                   </div>
                 </BodyContent>
             </div>
 
